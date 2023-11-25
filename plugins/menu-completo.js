@@ -21,22 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* ALCAVENTAS
-┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +52 824 105 0228
-┣⟣☯︎ *𝙵𝙴𝙲𝙷𝙰:* ${date}
-┣⟣☯︎ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
-┣⟣☯︎ *𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
-┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝕁𝕌𝔼𝔾𝕆𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}menujuegos_
-┗━━━━━━━━━━━━━━━━┛
-
+    const str = `
 ┏━━━━━━━━━━━━━━━━┓
 *┃❍ ACTIVAR O DESACTIVAR ❍*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -367,12 +352,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⟣❥ _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 ┣⟣❥ _${usedPrefix}cartoon *<responder a imagen>*_
 ┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝕆𝕎ℕ𝔼ℝ𝕊 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝕋𝕆ℝ𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}menuowner_
-┗━━━━━━━━━━━━━━━━┛`.trim();
+`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
