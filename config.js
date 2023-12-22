@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['527223931652', '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟 ', true],
+  ['523319519981', '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁 ', true],
   ['12025609528', '𝗢𝗪𝗡𝗘𝗥 𝟮', true],
 ];
 
@@ -16,11 +16,11 @@ global.suittag = ['51992004117'],['50576390682']
 global.prems = ['51992004127'],['50576390682']
 
 global.packname = 'STICKER';
-global.author = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟';
-global.wm = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟 ';
-global.titulowm = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟 👋';
-global.titulowm2 = ` 𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟  `
-global.igfg = '𝗩𝗔𝗟𝗧𝗛𝗢𝗠 𝗕𝗢𝗧🤟';
+global.author = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁';
+global.wm = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁 ';
+global.titulowm = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁 👋';
+global.titulowm2 = ` 𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁  `
+global.igfg = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -42,8 +42,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gt = '★𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝★';
-global.mysticbot = '★𝙷𝙰𝙲𝙷𝙸𝙺𝙾 - 𝙱𝙾𝚃★';
+global.gt = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁';
+global.mysticbot = '𝗦𝗮𝗺𝗶 | 𝗕𝗼𝘁';
 global.md = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.mysticbot = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
